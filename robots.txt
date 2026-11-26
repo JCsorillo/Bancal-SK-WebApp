@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /apps-script/
+Disallow: /src/
+Disallow: /tools/
+Disallow: /404.html
+
+Sitemap: https://YOUR-DOMAIN.com/sitemap.xml

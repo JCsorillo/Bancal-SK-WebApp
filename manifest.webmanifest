@@ -1,0 +1,56 @@
+{
+  "id": "./",
+  "name": "SK Bancal",
+  "short_name": "SK Bancal",
+  "description": "Sangguniang Kabataan of Barangay Bancal, Carles, Iloilo",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFD60A",
+  "theme_color": "#FFD60A",
+  "categories": [
+    "government",
+    "news"
+  ],
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency hotlines",
+      "short_name": "Hotlines",
+      "url": "hotlines.html",
+      "icons": [
+        {
+          "src": "assets/img/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Accomplishment reports",
+      "short_name": "Reports",
+      "url": "reports.html",
+      "icons": [
+        {
+          "src": "assets/img/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
