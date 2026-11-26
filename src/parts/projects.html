@@ -1,0 +1,25 @@
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="brush" style="font-size:1.1rem" id="projBrush">2025</span><h2 class="title" id="projTitle" data-i18n="proj.title">What the SK did in 2025</h2></div>
+        <p><span id="projBody" data-i18n="proj.body">49 projects, programs and activities across nine sectors. Search the list or filter by sector.</span> <a href="#" id="projPoster" data-full="assets/img/posters/ppa-2025.jpg" data-cap="Projects, Programs and Activities Implemented in 2025" style="font-weight:700" data-i18n="proj.poster">View the original 2025 poster</a></p>
+      </div>
+      <div class="filters" id="yearTabs" role="group" aria-label="Year"><button class="fchip" type="button" data-year="2025" aria-pressed="true" data-i18n="yr.2025">2025</button><button class="fchip" type="button" data-year="2324" aria-pressed="false" data-i18n="yr.2324">2023–2024</button></div>
+      <div class="bento" id="bento"></div>
+      <p class="count" style="margin:-.4rem 0 1rem" data-i18n="bento.hint">Tap a tile to filter the table. Tap it again to clear.</p>
+      <div class="card ledger">
+        <div class="ledger-tools">
+          <input class="search" id="q" type="search" placeholder="Search projects" data-i18n-ph="proj.search" aria-label="Search projects" autocomplete="off">
+          <button class="btn alt" id="clearSector" type="button" hidden data-i18n="bento.clear">Show all 49</button>
+          <span class="count" id="count" role="status"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th data-i18n="th.no">No.</th><th data-i18n="th.project">Project</th><th data-i18n="th.sector">Sector</th><th data-i18n="th.date">Date</th></tr></thead>
+            <tbody id="ledgerBody"></tbody>
+          </table>
+        </div>
+        <p class="empty" id="empty" hidden data-i18n="proj.none">No project matches that search.</p>
+      </div>
+    </div>
+  </section>

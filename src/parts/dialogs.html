@@ -1,0 +1,41 @@
+<dialog class="drawer" id="desk" aria-labelledby="deskTitle">
+  <div class="drawer-in">
+    <div class="drawer-top">
+      <h2 class="title" id="deskTitle" data-i18n="nav.reach">Reach the SK</h2>
+      <button class="ibtn" type="button" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <p class="sub" data-i18n="reach.body">Write your question or concern here, then send it through the SK's Facebook profile. This site does not store or send your message.</p>
+    <form id="deskForm" style="display:grid;gap:.9rem">
+      <label><span data-i18n="form.name">Name (optional)</span><input type="text" id="fName" autocomplete="name"></label>
+      <label><span data-i18n="form.topic">Topic</span>
+        <select id="fTopic">
+          <option data-i18n="topic.1">Youth programs and registration</option>
+          <option data-i18n="topic.2">Scholarship or assistance</option>
+          <option data-i18n="topic.3">Sports equipment or court use</option>
+          <option data-i18n="topic.4">Report a concern</option>
+          <option data-i18n="topic.5">Something else</option>
+        </select></label>
+      <label><span data-i18n="form.msg">Message</span><textarea id="fMsg" required></textarea></label>
+      <button class="btn" type="submit" data-i18n="form.send">Copy message and open Facebook</button>
+      <p class="status" id="deskStatus" role="status"></p>
+    </form>
+    <div class="fb">
+      <a class="btn alt" href="https://www.facebook.com/share/1Kp7Ma35EQ/" target="_blank" rel="noopener" data-i18n="fb.page">SK Bancal profile</a>
+      <a class="btn alt" href="https://www.facebook.com/share/1CKcGoXDTU/" target="_blank" rel="noopener" data-i18n="fb.chair">SK Chair Nicole Anne Barbosa</a>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="preview" aria-label="Website preview">
+  <button class="ibtn" type="button" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <img id="pvImg" alt="">
+  <p id="pvCap"></p>
+  <a class="btn" id="pvLink" href="#" target="_blank" rel="noopener noreferrer" style="margin:.8rem auto 0;width:max-content" data-i18n="svc.open">Open official site</a>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Poster viewer">
+  <button class="ibtn" type="button" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</dialog>
+

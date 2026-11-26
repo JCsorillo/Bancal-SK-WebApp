@@ -1,0 +1,50 @@
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="brush" style="font-size:1.1rem" id="projBrush">2025</span><h1 class="title" id="projTitle" data-i18n="proj.title">What the SK did in 2025</h1></div>
+        <p><span id="projBody" data-i18n="proj.body">49 projects, programs and activities across nine sectors. Search the list or filter by sector.</span> <a href="#" id="projPoster" data-full="assets/img/posters/ppa-2025.jpg" data-cap="Projects, Programs and Activities Implemented in 2025" style="font-weight:700" data-i18n="proj.poster">View the original 2025 poster</a></p>
+      </div>
+      <div class="filters" id="yearTabs" role="group" aria-label="Year"><button class="fchip" type="button" data-year="2025" aria-pressed="true" data-i18n="yr.2025">2025</button><button class="fchip" type="button" data-year="2324" aria-pressed="false" data-i18n="yr.2324">2023–2024</button><button class="fchip" type="button" data-year="all" aria-pressed="false" data-i18n="yr.all">All</button></div>
+      <div class="bento" id="bento"></div>
+      <p class="count" style="margin:-.4rem 0 1rem" data-i18n="bento.hint">Tap a tile to filter the table. Tap it again to clear.</p>
+      <div class="card ledger">
+        <div class="ledger-tools">
+          <input class="search" id="q" type="search" placeholder="Search projects" data-i18n-ph="proj.search" aria-label="Search projects" autocomplete="off">
+          <button class="btn alt" id="clearSector" type="button" hidden data-i18n="bento.clear">Show all 49</button>
+          <span class="count" id="count" role="status"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th data-i18n="th.no">No.</th><th data-i18n="th.project">Project</th><th data-i18n="th.sector">Sector</th><th data-i18n="th.date">Date</th></tr></thead>
+            <tbody id="ledgerBody"></tbody>
+          </table>
+        </div>
+        <p class="empty" id="empty" hidden data-i18n="proj.none">No project matches that search.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="glance">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="brush" style="font-size:1.1rem" data-i18n="pj.k">Big picture</span><h2 class="title" data-i18n="pj.t">The SK's work by sector</h2></div>
+        <p data-i18n="pj.b">All projects from the 2023 to 2025 lists, grouped by the sector they serve.</p>
+      </div>
+      {{share}}
+    </div>
+  </section>
+
+  <section class="band section" id="transparency">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="brush" style="font-size:1.1rem" data-i18n="tr.k">Open books</span><h2 class="title" data-i18n="tr.title">SK budget transparency</h2></div>
+        <p data-i18n="tr.body">Where the SK's money comes from, what it is planned for and how much has been spent. Figures are posted here only after the SK releases them.</p>
+      </div>
+      {{budget}}
+      <div class="tr-how">
+        <article class="card tr-card"><h2 data-i18n="tr.h1">Where the money comes from</h2><p data-i18n="tr.p1">The Sangguniang Kabataan receives a share of the barangay's general fund each year. It is spent through the Annual Barangay Youth Investment Program (ABYIP), which lists every planned project and its cost.</p></article>
+        <article class="card tr-card"><h2 data-i18n="tr.h2">How to read the numbers</h2><p data-i18n="tr.p2">Planned is what the ABYIP set aside for a sector. Spent is what has actually been paid out. Remaining is the difference. The percent bar shows how much of the plan has been used.</p></article>
+        <article class="card tr-card"><h2 data-i18n="tr.h3">Ask for a document</h2><p data-i18n="tr.p3">Anyone may ask to see the ABYIP, the SK budget or the liquidation reports. Send a message to the SK, or visit the barangay hall in Bancal, Carles.</p><p class="tr-acts"><button class="btn" type="button" data-open-desk data-i18n="reach.write">Write a message</button><a class="btn alt" href="https://docs.google.com/forms/d/e/1FAIpQLSfnL6qj0_5LOo4bYboAm01kNnj2rYQ_Gr2SYsubAc2OUg2K4A/viewform" target="_blank" rel="noopener" data-i18n="sug.formbtn">Open the SK's suggestion form</a></p></article>
+      </div>
+    </div>
+  </section>
